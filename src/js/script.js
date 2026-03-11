@@ -16,7 +16,7 @@ function loadDataSource() {
 
 function displayData(dataArray) {
 	var root = dataArray.response;
-	root.forEach(function(value,index) {
+	root.forEach(function(value, index) {
 
 		var html = `
 		<div class="card shadow-lg">
